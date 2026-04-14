@@ -5,9 +5,9 @@
 | 項目 | 說明 |
 |------|------|
 | 對應教科書 | 3-3 使用者與群組管理、3-4 目錄結構 |
-| 繳交方式 | 在 Fork 的 week06/ 資料夾中建立四個檔案，發 PR 繳交 |
+| 繳交方式 | 在 Fork 的 week06/ 資料夾中建立四個檔案，push 到 Fork |
 | 繳交期限 | 下週上課前 |
-| PR 標題格式 | 學號_姓名_week06 |
+| PR 標題 | 學號_姓名（僅首次繳交時建立，之後 push 自動更新） |
 | 本週另有 | 教師審查專題提案 |
 
 ---
@@ -24,7 +24,7 @@
    git commit -m "完成第6週作業"
    git push origin main
    ```
-6. 到 GitHub 網頁發 PR，標題：`學號_姓名_week06`
+6. push 到你的 Fork 即可（W3 已建立的 PR 會自動更新）
 
 ---
 
@@ -255,8 +255,7 @@ rm /mnt/c/Users/你的Windows帳號/Desktop/wsl_hello.txt
 - [ ] week06/q2_ownership.txt 包含目錄結構說明、空間統計、chown/chgrp 操作結果
 - [ ] week06/q3_concepts.txt 包含三題觀念回答
 - [ ] week06/q4_wsl.txt 包含 WSL 環境資訊和檔案互通操作結果
-- [ ] 已 push 到自己的 Fork
-- [ ] 已發 PR，標題格式：學號_姓名_week06
+- [ ] 已 push 到 Fork（確認 PR 中可看到本週 commit）
 
 ---
 

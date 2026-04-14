@@ -6,9 +6,9 @@
 | 項目 | 說明 |
 |------|------|
 | 對應教科書 | 3-1 Linux 常用命令 |
-| 繳交方式 | 在 Fork 的 week04/ 資料夾中建立三個檔案，發 PR 繳交 |
+| 繳交方式 | 在 Fork 的 week04/ 資料夾中建立三個檔案，push 到 Fork |
 | 繳交期限 | 下週上課前 |
-| PR 標題格式 | 學號_姓名_week04 |
+| PR 標題 | 學號_姓名（僅首次繳交時建立，之後 push 自動更新） |
 | 本週另有 | 小考 1、每人提出 1-3 個專題題目構想（放在 my-topics/ 資料夾） |
 
 ---
@@ -25,7 +25,7 @@
    git commit -m "完成第4週作業"
    git push origin main
    ```
-6. 到 GitHub 網頁發 PR，標題：`學號_姓名_week04`
+6. push 到你的 Fork 即可（W3 已建立的 PR 會自動更新）
 
 ---
 
@@ -140,8 +140,7 @@ A3：
 - [ ] week04/q1_file_commands.txt 包含三個任務的完整結果
 - [ ] week04/q2_grep_pipe.txt 包含搜尋、管線、重導向的結果
 - [ ] week04/q3_concepts.txt 包含三題觀念回答
-- [ ] 已 push 到自己的 Fork
-- [ ] 已發 PR，標題格式：學號_姓名_week04
+- [ ] 已 push 到 Fork（確認 PR 中可看到本週 commit）
 
 ---
 
@@ -162,7 +161,7 @@ my-topics/
 - 可能使用的資料來源
 - 預計使用的技術
 
-題目構想可以跟 week04 作業一起 push，也可以分開發 PR。
+題目構想可以跟 week04 作業一起 push。
 
 ---
 

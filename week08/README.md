@@ -5,9 +5,9 @@
 | 項目 | 說明 |
 |------|------|
 | 對應教科書 | 5-3 MySQL 資料庫、5-4 SQL 語法 |
-| 繳交方式 | 在 Fork 的 week08/ 資料夾中建立四個檔案，發 PR 繳交 |
+| 繳交方式 | 在 Fork 的 week08/ 資料夾中建立四個檔案，push 到 Fork |
 | 繳交期限 | 下週上課前 |
-| PR 標題格式 | 學號_姓名_week08 |
+| PR 標題 | 學號_姓名（僅首次繳交時建立，之後 push 自動更新） |
 
 ---
 
@@ -23,7 +23,7 @@
    git commit -m "完成第8週作業"
    git push origin main
    ```
-6. 到 GitHub 網頁發 PR，標題：`學號_姓名_week08`
+6. push 到你的 Fork 即可（W3 已建立的 PR 會自動更新）
 
 ---
 
@@ -250,8 +250,7 @@ A：
 - [ ] week08/q2_create.txt 包含建立 port_db、ships 表、自行設計 crew 表、觀念回答
 - [ ] week08/q3_query.txt 包含新增資料、3 題條件查詢、修改刪除、觀念回答
 - [ ] week08/q4_stats.txt 包含統計函數、GROUP BY、LEFT JOIN、觀念回答
-- [ ] 已 push 到自己的 Fork
-- [ ] 已發 PR，標題格式：學號_姓名_week08
+- [ ] 已 push 到 Fork（確認 PR 中可看到本週 commit）
 
 ---
 

@@ -5,9 +5,9 @@
 | 項目 | 說明 |
 |------|------|
 | 對應教科書 | 1-1 認識程式開發的虛擬化技術、1-2 Linux 與 Windows 作業系統、3-1 Linux 常用命令 |
-| 繳交方式 | 在 Fork 的 week03/ 資料夾中建立三個檔案，發 PR 繳交 |
+| 繳交方式 | 在 Fork 的 week03/ 資料夾中建立三個檔案，push 到 Fork |
 | 繳交期限 | 下週上課前 |
-| PR 標題格式 | 學號_姓名_week03 |
+| PR 標題 | 學號_姓名（僅首次繳交時建立，之後 push 自動更新） |
 
 ---
 
@@ -30,10 +30,10 @@
    git commit -m "完成第3週作業"
    git push origin main
    ```
-6. 到 GitHub 網頁發 Pull Request：
+6. 首次繳交：到 GitHub 網頁發 PR，標題：`學號_姓名`。之後每週 push 即自動更新，不需再發 PR。
    - 進入你的 Fork 頁面
    - 點選 **Contribute** > **Open pull request**
-   - PR 標題填入：`學號_姓名_week03`
+   - PR 標題填入：`學號_姓名`
    - 點選 **Create pull request**
 
 ---
@@ -179,8 +179,7 @@ A3：（你的回答，至少 2 行）
 - [ ] week03/q1_basic.txt 包含 7 個指令的結果與姓名學號
 - [ ] week03/q2_fileops.txt 包含 7 步操作紀錄與問答
 - [ ] week03/q3_compare.txt 包含 3 題觀念回答與姓名學號
-- [ ] 已 push 到自己的 Fork
-- [ ] 已發 PR，標題格式：學號_姓名_week03
+- [ ] 已 push 到 Fork（確認 PR 中可看到本週 commit）
 
 ---
 

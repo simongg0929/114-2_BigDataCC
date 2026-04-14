@@ -5,9 +5,9 @@
 | 項目 | 說明 |
 |------|------|
 | 對應教科書 | 3-2 使用 nano 文字編輯器 |
-| 繳交方式 | 在 Fork 的 week05/ 資料夾中建立三個檔案，發 PR 繳交 |
+| 繳交方式 | 在 Fork 的 week05/ 資料夾中建立三個檔案，push 到 Fork |
 | 繳交期限 | 下週上課前 |
-| PR 標題格式 | 學號_姓名_week05 |
+| PR 標題 | 學號_姓名（僅首次繳交時建立，之後 push 自動更新） |
 | 本週另有 | 組內討論投票決定專題題目、繳交專題提案 |
 
 ---
@@ -24,7 +24,7 @@
    git commit -m "完成第5週作業"
    git push origin main
    ```
-6. 到 GitHub 網頁發 PR，標題：`學號_姓名_week05`
+6. push 到你的 Fork 即可（W3 已建立的 PR 會自動更新）
 
 ---
 
@@ -139,8 +139,7 @@ A3：
 - [ ] week05/q1_nano.txt 包含 nano 操作過程和快捷鍵
 - [ ] week05/q2_script.txt 包含 Script 程式碼、權限設定、執行結果
 - [ ] week05/q3_chmod.txt 包含三題觀念回答
-- [ ] 已 push 到自己的 Fork
-- [ ] 已發 PR，標題格式：學號_姓名_week05
+- [ ] 已 push 到 Fork（確認 PR 中可看到本週 commit）
 - [ ] 各組已在專題 Repo 繳交 proposal/proposal.md
 
 ---
