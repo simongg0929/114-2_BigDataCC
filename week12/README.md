@@ -21,3 +21,8 @@ add the following content into .bashrc file.
 ```
 export PATH="$HOME/miniconda3/bin:$PATH"
 ```
+
+## Validate the installation
+```
+conda --version
+```
