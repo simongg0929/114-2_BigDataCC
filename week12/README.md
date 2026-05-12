@@ -28,6 +28,7 @@ app = gr.Interface(rgb2gray, gr.Image(image_mode="RGB"), "image") app.launch()
 
 ## Ex 05
 
+```
 from keras.applications.mobilenet import MobileNet 
 from keras.applications.mobilenet import preprocess_input
 
@@ -45,6 +46,7 @@ def predict(input):
 	input_resized = resize_image(input, 224, 224) 	img = np.array(input_resized) 
 	img = img.reshape((1, 224, 224, 3)) img = preprocess_input(img)  	y_pred = model.predict(img, verbose=0)  label = decode_predictions(y_pred) top_prediction = label[0][0]  formatted_string = "%s (%.2f%%)" % (top_prediction[1], top_prediction[2]*100) return formatted_string
 app = gr.Interface(fn=predict, inputs=gr.Image(), outputs="text")  app.launch()
+```
 
 # Software installation
 ## Download Miniconda
