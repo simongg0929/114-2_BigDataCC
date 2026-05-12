@@ -78,6 +78,21 @@ def predict(input): 	input_resized = resize_image(input, 224, 224)
 
 inputs = gr.Image() outputs = gr.Label(num_top_classes=3) app = gr.Interface(fn=predict, inputs=inputs, outputs=outputs) app.launch()
 ```
+## Ex 07
+import keras_nlp
+import gradio as gr 
+
+labels = ["負面", "正面"] 
+model_name = "bert_tiny_en_uncased_sst2" 
+preprocessor = keras_nlp.models.BertPreprocessor.from_preset( model_name, sequence_length=128,)
+
+classifier = keras_nlp.models.BertClassifier.from_preset( model_name, num_classes=2, preprocessor=preprocessor)
+
+def predict(input): 	output = classifier.predict([input]) 	predictions = { labels[i]: float(output[0][i]) for i in range(len(labels)) } 	return predictions
+
+outputs = gr.Label(num_top_classes=2) examples = ["This movie is good.", "A total waste of my time."] app = gr.Interface(fn=predict, inputs="text", outputs=outputs, examples=xamples) app.launch()
+
+
 
 # Software installation
 ## Download Miniconda
